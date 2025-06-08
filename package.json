@@ -1,6 +1,6 @@
 {
   "name": "ai-agent-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI utilities for Danny's AI coding agent workflow",
   "bin": {
     "generate-instructions": "./dist/generate-instructions.js"
