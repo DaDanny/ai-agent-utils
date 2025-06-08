@@ -55,7 +55,9 @@ Now run:
 ```bash
 npm run generate-instructions my-task-name
 ```
-> 💡 You can also run it directly with `npx` from your local `node_modules/.bin`:
+
+💡 You can also run it directly with `npx` from your local `node_modules/.bin`:
+
 ```bash
 npx ai-agent-utils generate-instructions my-task-name
 ```
