@@ -1,4 +1,28 @@
 {
   "name": "ai-agent-utils",
-  "packageManager": "yarn@4.6.0"
+  "version": "1.0.0",
+  "description": "CLI utilities for Danny's AI coding agent workflow",
+  "bin": {
+    "generate-instructions": "./dist/generate-instructions.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "lib",
+    "!**/*.ts"
+  ],
+  "author": "DaDanny",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.0.0"
+  }
 }
