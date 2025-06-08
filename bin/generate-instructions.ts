@@ -12,7 +12,7 @@ if (!args[0]) {
 }
 
 const filename = args[0].endsWith(".md") ? args[0] : `${args[0]}.md`;
-const today = format(new Date(), "MM-dd-yyyy");
+const today = format(new Date(), "yyyy-MM-dd");
 const dir = path.resolve(process.cwd(), "agent-instructions", today);
 const fullPath = path.join(dir, filename);
 
